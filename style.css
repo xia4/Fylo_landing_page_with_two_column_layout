@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    color: #000;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+nav {
+    width: 1280px;
+    height: 49px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 65px;
+}
+nav .logo {
+    width: 166px;
+    height: 49px;
+}
+nav ul {
+    display: flex;
+    width: 271px;
+    justify-content: space-between;
+}
+nav ul li {
+    font-size: 16px;
+}
+nav ul li a {
+    color: #07043b;
+}
+.first_card {
+    display: flex;
+    width: 1280px;
+    height: 474px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 86px;
+}
+main .first_card .info {
+    width: 627px;
+    height: 277px;
+}
+main .first_card .info h1 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 60px;
+    color: #07043b;
+    font-family: 'Raleway', sans-serif;
+}
+main .first_card .info p {
+    width: 585px;
+    height: 72px;
+    font-size: 17px;
+    color: #07043b;
+    line-height: 24px;
+}
+main .first_card .info .post {
+    display: flex;
+}
+main .first_card .info .post input {
+    width: 320px;
+    height: 45px;
+    border: 1px solid #07043b;
+    color: #c2c2c2;
+    margin-right: 16px;
+    border-radius: 3px;
+    padding-left: 10px;
+    outline: none;
+}
+main .first_card .info .post button {
+    width: 200px;
+    background-color: #2f65f8;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+main .first_card .main_img {
+    width: 640px;
+    height: 474px;
+}
+main .first_card .main_img img {
+    width: 100%;
+}
+.second_card {
+    width: 100%;
+    height: 838px;
+    align-items: center;
+    background-image: url(./images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top ;
+    margin-top: 164px;
+}
+.second_card .second_size {
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+    height: 499px;
+    margin: 0 auto;
+    padding-top: 178px;
+}
+.second_card .second_info {
+    width: 648px;
+    height: 499px;
+}
+.second_card .second_info h1 {
+    font-size: 38px;
+    color: #07043b;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 38px;
+}
+.second_card .second_info .explain {
+    width: 529px;
+    height: 48px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #07043b;
+    margin-bottom: 16px;
+}
+.second_card .second_info .link {
+    display: flex;
+    align-items: center;
+    width: 166px;
+    border-bottom: 1px solid #3da08f;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.second_card .second_info .link a {
+    font-size: 16px;
+    color: #3da08f;
+    margin: 0 auto;
+}
+.second_card .second_info .link .arrow {
+    width: 12px;
+    height: 12px;
+}
+.second_card .second_info .second_box {
+    width: 356px;
+    height: 215px;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.second_card .second_info .second_box .user_info {
+    width: 289px;
+    height: 177px;
+    padding: 33px;
+
+}
+.second_card .second_info .second_box .user_ex {
+    width: 289px;
+    height: 92px;
+    font-size: 13px;
+    color: #07043b;
+    line-height: 23px;
+}
+.second_card .second_info .second_box .user {
+    display: flex;
+    align-items: center;
+}
+.second_card .second_info .second_box .user .kyle {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.second_card .second_info .second_box .user .user_name {
+    line-height: 15px;
+    margin-left: 15px;
+}
+.second_card .second_info .second_box .user .user_name h1 {
+    font-size: 11px;
+    font-weight: bold;
+    color: #07043b;
+    
+}
+.second_card .second_info .second_box .user .user_name p {
+    font-size: 8px;
+    color: #07043b;
+}
+.second_card .second_img {
+    width: 542px;
+    height: 409px;
+}
+.second_card .second_img img {
+    width: 100%;
+}
+.third_card {
+    width: 100%;
+    height: 322px;
+    background-color: #575988;
+}
+.third_card .third_size {
+    width: 1240px;
+    height: 137px;
+    display: flex;
+    margin: 0 auto;
+    padding: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+.third_card .third_size .third_info {
+    width: 533px;
+    height: 137px;
+}
+.third_card .third_size .third_info h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 17px;
+    font-family: 'Raleway', sans-serif;
+}
+.third_card .third_size .third_info p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    width: 500px;
+}
+.third_card .third_size .third_post {
+    width: 480px;
+    height: 112px;
+} 
+.third_card .third_size .third_post input {
+    width: 100%;
+    height: 48px;
+    border: 1px solid #c0c0c0;
+    border-radius: 3px;
+    padding-left: 20px;
+    margin-bottom: 16px;
+}
+.third_card .third_size .third_post button {
+    width: 200px;
+    height: 48px;
+    border-radius: 3px;
+    background-color: #2f65f8;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+footer {
+    background-color: #07043b;
+    height: 391px;
+    width: 100%;
+    margin: 0 auto;
+}
+footer ul li {
+    color: #fff;
+    margin-bottom: 16px;
+}
+footer .footer_size {
+    width: 1099px;
+    height: 213px;
+    padding: 100px;
+}
+footer .footer_logo {
+    width: 135px;
+    height: 39px;
+    margin-bottom: 36px;
+}
+footer .footer_logo .footer_img {
+    width: 100%;
+}
+footer .flex {
+    width: 1099px;
+    height: 136px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .flex .tel .phone {
+    margin-bottom: 15px;
+}
+footer .flex .tel span {
+    vertical-align: top;
+    color: #fff;
+    margin-left: 16px;
+}
+footer .flex .category {
+    width: 69px;
+    height: 136px;
+}
+footer .links {
+    width: 120px;
+}
+footer .links ul {
+    display: flex;
+    justify-content: space-between;
+}
+footer .links ul li {
+    width: 21px;
+    /* height: 30px; */
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+    margin-right: 11px;
+}
+footer .links ul i {
+    width: 20px;
+    height: 20px;
+    color: #fff;
+}
