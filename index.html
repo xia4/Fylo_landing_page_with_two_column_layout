@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <script src="./main.js" defer></script>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./style.css">
   <script src="https://kit.fontawesome.com/642b57fb02.js" crossorigin="anonymous"></script>
@@ -24,9 +24,10 @@
         <div class="info">
           <h1>All your files in one secure location, accessible anywhere</h1>
           <p>Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
-          <form class="post">
-            <input type="text" placeholder="Enter your email..">
-            <button>Get Started</button>
+          <span class="error" id="msg"></span>
+          <form id="post" name="form1">
+            <input type="text" maxlength="15" placeholder="Enter your email.." class="email_ip" name="email" required>
+            <input type="submit" id="submit" value="Get Started">
           </form>
         </div>
         <div class="main_img">
